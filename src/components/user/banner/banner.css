@@ -1,0 +1,29 @@
+#profile-banner-image {
+    height: 360px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 5px;
+}
+  
+#profile-banner-image img {
+    width: 100%;
+    height:-webkit-fill-available;
+}
+
+.avatar-banner {
+    background-color: white;
+    position: absolute;
+    left: 45%;
+    top: 85%;
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.avatar-style-page {
+    display: block;
+    margin: 0;
+    width: 100px !important;
+    height: 100px !important;
+}

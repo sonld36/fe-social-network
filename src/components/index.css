@@ -1,0 +1,62 @@
+body, html {
+  background-image: none;
+}
+
+.search-style {
+  background-color: #b3cccc;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin: auto 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input-style::before {
+  border-bottom: none !important;
+  
+}
+
+.input-style:hover::before {
+  border-bottom: none !important;
+}
+
+.input-style::after {
+  border-bottom: none !important;
+}
+
+.input-style {
+  top: 2px !important;
+  color: white !important;
+}
+
+.right-nav {
+  position: absolute;
+  left: 70%;
+  top: 15%;
+  /* justify-content: end; */
+}
+
+.information-user{
+  height: 45px;
+  line-height: 0 !important;
+  padding: 4px 8px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.information-user:hover {
+  cursor: pointer;
+  background-color: #b3cccc;
+}
+
+
+.features {
+  height: inherit;
+  line-height: 0 !important;
+  margin: auto 40px;
+}
+
+/* .option {
+  margin: auto 25px;
+} */

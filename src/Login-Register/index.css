@@ -1,0 +1,52 @@
+
+.container {
+  background-image: url("../../public/tyler-lastovich-hM08wZJBlK4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  /* height: 100%; */
+}
+
+
+.errorMessage {
+  color: red;
+  font-size: 10px;
+  
+}
+
+.inputForm {
+  text-align: center;
+  background-color: #c2c2d6;
+  border: 1px solid rgb(124, 106, 106);
+  border-radius: 5px;
+  box-shadow: 1px 2px rgb(77, 57, 57);
+  width: 350px;
+  display: block;
+  margin: 50px auto;
+  
+  top: 100px;
+}
+
+.line {
+  border-bottom: 1px solid black;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+
+.form {
+  padding: 30px 0;
+}
+
+.button {
+  padding: 10px 0;
+}
