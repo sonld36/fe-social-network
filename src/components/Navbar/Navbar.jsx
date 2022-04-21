@@ -1,17 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Layout, Menu, } from 'antd';
 import { WifiOutlined } from '@ant-design/icons';
-import { Input } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import Avatar from '@mui/material/Avatar';
-import PeopleIcon from '@mui/icons-material/People';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import PeopleIcon from '@mui/icons-material/People';
+import SearchIcon from '@mui/icons-material/Search';
+import { Input } from '@mui/material';
+import Avatar from '@mui/material/Avatar';
 import Tooltip from '@mui/material/Tooltip';
+import { Layout } from 'antd';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { color } from '@mui/system';
 
 const ariaLabel = { 'aria-label': 'description' };
 
@@ -22,11 +20,19 @@ Navbar.propTypes = {
 function Navbar(props) {
   const { Header } = Layout;
 
+  const styleForHeader = { color: "white",
+  backgroundColor: "#5c8a8a", 
+  width: "100%", 
+  position: "fixed",
+  zIndex: 2}
+
   const user = JSON.parse(localStorage['user']);
+
+  
 
   return (
     <>
-      <Header className="header flex relative" style={{ color: "white", backgroundColor: "#5c8a8a", width: "100%" }}>
+      <Header className="header flex" style={styleForHeader}>
         <div className='cursor-pointer mt-auto flex' style={{ height: "inherit" }}>
           <WifiOutlined className='text-3xl py-4'
           />

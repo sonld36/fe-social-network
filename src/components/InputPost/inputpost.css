@@ -1,0 +1,46 @@
+.input-post-container {
+    width: 600px;
+    margin: 100px auto;
+    
+    background: white;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.input-post {
+    padding: 15px;
+    position: relative;
+}
+
+.close-input-post {
+    position: absolute;
+    right: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    width: fit-content;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.title-input-post {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.submit-post {
+    display: grid;
+    margin: 20px 100px;
+}
+
+/* .information-for-post {
+
+} */
+
+.text-input-style {
+    width: 100% !important;
+    margin: 20px 0 !important;
+}
+
+.close-input-post:hover {
+    background-color: rgb(222, 229, 231);
+}

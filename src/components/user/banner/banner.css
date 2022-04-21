@@ -1,8 +1,9 @@
 #profile-banner-image {
     height: 360px;
     overflow: hidden;
-    z-index: 1;
     border-radius: 5px;
+    width: 100%;
+    position: relative;
 }
   
 #profile-banner-image img {
@@ -12,13 +13,13 @@
 
 .avatar-banner {
     background-color: white;
-    position: absolute;
-    left: 45%;
-    top: 85%;
+    position: relative;
+    top: -50px;
     width: 110px;
     height: 110px;
     padding: 5px;
     border-radius: 50%;
+    margin: 0 auto;
 }
 
 .avatar-style-page {
@@ -26,4 +27,34 @@
     margin: 0;
     width: 100px !important;
     height: 100px !important;
+}
+
+.name-user-banner {
+    font-size: 25px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.button-change-banner {
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    bottom: 15px;
+}
+
+.button-change-avatar {
+    position: absolute;
+    right: 4px;
+    bottom: 8px;
+}
+
+.features-user-banner {
+    /* position: absolute; */
+    width: 100%;
+    margin: 10px;
+}
+
+.button-features {
+    width: 300px !important;
+    color: black !important;
 }

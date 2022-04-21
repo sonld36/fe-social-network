@@ -7,7 +7,8 @@ import SubmitButton from './submitButton';
 import { Button } from '@mui/material';
 import { typeOfSubmit } from '../const';
 import RegisterForm from './RegisterForm';
-import CircularProgress from '@mui/material/CircularProgress';
+
+import Loading from '../helper/loading';
 
 LoginRegisterPage.propTypes = {
 
@@ -57,9 +58,7 @@ function LoginRegisterPage(props) {
         </div>
 
       </div>
-      {loading && <div className='loading-style'>
-        <CircularProgress style={{opacity:"1", width: "60px", height: "60px"}}/>
-      </div>}
+      {loading && <Loading />}
     
     </div>
 

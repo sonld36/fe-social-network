@@ -1,0 +1,77 @@
+.status {
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #b6b0b0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #b6b0b0;
+}
+
+.information-status {
+    border-bottom: 1px solid #dfe2e6;
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+}
+
+.user-date-privacy {
+    margin-left: 10px;
+}
+
+/* ver 1 */
+.privacy-icon {
+    margin-left: 5px;
+    padding: 5px;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+
+.privacy-icon:hover {
+    background-color: #dfe2e6;
+}
+
+.createdAt {
+    margin: auto 0;
+}
+
+.content-status {
+    padding: 0px 10px;
+}
+
+.text-content {
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.image-content {
+    height: 500px;
+    border: 0.5px solid #dfe2e6;
+    background-color: #e8ebf0;
+    border-radius: 5px;
+}
+
+.image-content-style {
+    height: inherit;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+.button-option {
+   width: calc(100% / 3);
+   text-transform: capitalize !important;
+}
+
+.option-status {
+    border-top: 0.5px solid #dfe2e6;
+    border-bottom: 0.5px solid #dfe2e6;
+}
+
+.option-status-box > * {
+    width: 100% !important;
+}

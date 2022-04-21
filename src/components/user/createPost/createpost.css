@@ -1,0 +1,42 @@
+.status-control {
+    margin: 0 10px;
+    width: 440px;
+    padding: 10px 15px;
+    background-color: #F0F2F5;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.create-post {
+    padding: 20px;
+}
+
+.button-create {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888888;
+}
+
+.icon-option {
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-option:hover {
+    background-color: #dfe2e6;
+}
+
+.status-control:hover {
+    background-color: #dfe2e6;
+}
+
+.option-status {
+    margin-top: 20px;
+}
+

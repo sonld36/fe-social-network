@@ -1,4 +1,3 @@
-import * as zxcvbn from 'zxcvbn';
 
 export const minMaxLength = (text, minLength, maxLength) => {
   let result = !text || text.length < minLength;

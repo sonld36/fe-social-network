@@ -1,0 +1,17 @@
+.profile-container {
+    padding: 30px;
+    width: 350px;
+}
+
+.profile-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.line-information {
+    margin: 10px 0;
+}
+
+.line-information:first-child {
+    margin-left: 5px;
+}

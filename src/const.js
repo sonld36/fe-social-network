@@ -19,3 +19,9 @@ export const typeOfNoti = {
     }
   }
 }
+
+export const stateOfPage = {
+  BAI_VIET: "Bài viết",
+  ANH: "Ảnh",
+  BAN_BE: "Bạn bè",
+}

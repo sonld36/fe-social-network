@@ -1,0 +1,43 @@
+.container-content {
+    display: grid;
+    padding: 10px 5px;
+    column-gap: 30px;
+    background-color: #dfe2e6;
+    
+}
+
+.profile {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid #b6b0b0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #b6b0b0;
+    width: fit-content;
+}
+
+.features {
+    margin: 0;
+}
+
+.column-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.create {
+    background-color: white;
+    border: 1px solid #b6b0b0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px #b6b0b0;
+    height: fit-content;
+}
+
+.statuses {
+    height: fit-content;
+}
+
+.title-page {
+    margin: 10px 5px;
+}

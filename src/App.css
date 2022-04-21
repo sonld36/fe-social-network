@@ -3,6 +3,7 @@
   height: 36px !important;
 }
 
+
 .button-style {
   background: content-box !important;
   border: none !important;
@@ -28,7 +29,7 @@
 }
 
 .loading-style {
-  position: absolute;
+  position: fixed;
   top: 0px;
   background-color: black;
   opacity: 0.5;
@@ -37,9 +38,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .page-style {
   margin: auto;
   width: 940px;
+  background-color: white;
+  
 }
