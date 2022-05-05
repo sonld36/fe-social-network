@@ -22,16 +22,16 @@ const buttons = [
 
 function Status(props) {
 
-  const { status } = props;
+  const { status, userId, user } = props;
 
   return (
     <div className='status'>
       <div className='information-status flex'>
           <Avatar className='my-auto avatar-style' alt='messi' 
-          src='https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_695/MTY4MTAyNTc0NzkwMzU0MTkz/2014-0609-lionel-messi-si-cover-x158253_tk1_001covjpg.webp' />
+          src={`http://localhost:3000/file/get-avatar/${userId}`} />
           <div className='user-date-privacy'>
             <div className='name-user'>
-              <p className=''>Le Son</p>
+              <p style={{width: "max-content"}}>{user.firstname} {user.lastname}</p>
             </div>
             <div className='flex'>
               <p className='createdAt'>{status.createdAt}</p>

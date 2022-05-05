@@ -12,6 +12,7 @@ import {
 import { typeOfSubmit } from './const';
 import Home from './components';
 import UserPage from './components/user';
+import AnotherUserPage from './components/user/anotherUser/anotherUserPage';
 
 
 function App() {
@@ -24,7 +25,9 @@ function App() {
           <Route path='/register' element={<LoginRegisterPage typeProps={typeOfSubmit.REGISTER} />} />
           <Route path='/' element={<Home />}>
             <Route path='/me' element={<UserPage />} />
+            <Route path="/user/profile/:id" element={<AnotherUserPage />} />
           </Route>
+          
         </Routes>
       </div>
 

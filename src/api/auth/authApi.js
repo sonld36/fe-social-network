@@ -1,6 +1,6 @@
 import api from "../api";
 
-export const userApi = {
+export const authApi = {
   register: (params) => {
     const url = '/auth/register';
     delete params.confirmPassword;
@@ -9,5 +9,12 @@ export const userApi = {
   login: (params) => {
     const url = "/auth/login";
     return api.post(url, {...params});
-  }
+  },
+
+  checkJwt: (params) => {
+    const url = "/auth/profile";
+    return api.post(url, {...params});
+  },
+
+  
 }

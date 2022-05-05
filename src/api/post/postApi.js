@@ -6,8 +6,8 @@ export const postApi = {
         return api.post(url, { ...params })
     },
 
-    getOwnPost: () => {
-        const url = "/post";
+    getOwnPost: (idUser) => {
+        const url = `/post/${idUser ? idUser : ""}`;
         return api.get(url);
     }
 }

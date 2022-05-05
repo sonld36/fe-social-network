@@ -1,8 +1,8 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { userApi } from "../../api/auth/userApi";
+import { authApi } from "../../api/auth/authApi";
 
 export const register = createAsyncThunk("auth/register", async (payload) => {
-  const data = await (await userApi.register(payload)).data;
+  const data = await (await authApi.register(payload)).data;
 
   localStorage.setItem("jwt", data.jwt);
   localStorage.setItem("user", JSON.stringify(data.user));
@@ -11,7 +11,7 @@ export const register = createAsyncThunk("auth/register", async (payload) => {
 });
 
 export const login = createAsyncThunk("auth/login", async(payload) => {
-  const data = (await userApi.login(payload));
+  const data = (await authApi.login(payload)).data;
 
   localStorage.setItem("jwt", data.jwt);
   localStorage.setItem("user", JSON.stringify(data.user));

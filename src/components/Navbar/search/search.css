@@ -1,0 +1,17 @@
+.table-search {
+    background: inherit;
+    width: 100%;
+    left: 0;
+    top: 34px;
+    height: fit-content;
+    padding: 10px 5px;
+}
+
+.item-searched {
+    border-bottom: 0.5px solid #dfe2e6;
+    padding: 3px 2px;
+}
+
+.item-searched:hover > *{
+    background-color: #dfe2e6 ;
+}

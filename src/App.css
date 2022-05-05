@@ -43,7 +43,7 @@
 
 .page-style {
   margin: auto;
-  width: 940px;
+  max-width: 940px;
   background-color: white;
   
 }

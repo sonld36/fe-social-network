@@ -34,7 +34,7 @@ function SubmitButton(props) {
 
     try {
       const resultAction = await dispatch(action);
-      
+      console.log("resultAction", resultAction);
       const user = unwrapResult(resultAction);
       console.log(user);
       if(user) {
